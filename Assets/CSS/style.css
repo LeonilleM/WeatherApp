@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body,html {
+    font-family: 'Inter', sans-seri;
+    color: white;
+    height: 100%;
+
+}
+
+#backgroundImg{
+    background: url(/Assets/Pictures/background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#leftBar{
+    background-color: rgb(78, 78, 78,.8);
+    
+}
+
+#cityName {
+    margin-top: 10px;
+    font-weight: 100;
+}
+#leftBar{
+    margin-top: 2rem;
+    margin-left:5rem;
+}
+
+input {
+    color:white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 36px;
+    background:transparent;
+    border-bottom-color: rgb(173, 173, 173);
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+
+
+.customBox{
+    width:250px;
+    height:200px;
+    border: 1px solid;
+}
