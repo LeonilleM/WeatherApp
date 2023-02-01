@@ -1,5 +1,7 @@
 const onChange = document.getElementById("citySearch");
+
 var x = ""
+
 onChange.addEventListener("change", function myFunction() {
         x = document.getElementById("citySearch").value;
         document.getElementById("cityWeather").innerHTML = x;
@@ -31,3 +33,4 @@ onChange.addEventListener("change", function myFunction() {
             document.getElementById("humidity").innerHTML = humidity;
         })
 })
+
