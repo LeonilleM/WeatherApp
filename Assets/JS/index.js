@@ -6,7 +6,7 @@ onChange.addEventListener("change", function myFunction() {
         x = document.getElementById("citySearch").value;
         document.getElementById("cityWeather").innerHTML = x;
         fetch('https://api.openweathermap.org/data/2.5/weather?q=' 
-        + x + '&appid=8d1b5d2eb6171db9fdebde88fa9e5780')
+        + x + '&appid={API-KEY}')
         .then(function(response){
             return response.json();
 
