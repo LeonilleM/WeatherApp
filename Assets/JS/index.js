@@ -4,10 +4,11 @@ var city = "";
 
 // Call the weather API with the city entered in the search box
 onChange.addEventListener("change", function myFunction() {
-    city = document.getElementById("citySearch").value;
-    document.getElementById("cityWeather").innerHTML = city;
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid={API_KEY}')
-        .then(function (response) {
+        x = document.getElementById("citySearch").value;
+        document.getElementById("cityWeather").innerHTML = x;
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=' 
+        + x + '&appid={API-KEY}')
+        .then(function(response){
             return response.json();
         })
         .then(function (response) {
